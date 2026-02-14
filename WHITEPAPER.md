@@ -1,4 +1,4 @@
-```markdown
+
 # BEAT WHITEPAPER v1.0
 
 ## Abstract
@@ -23,7 +23,7 @@ Beat is a decentralized social exchange protocol where every verified human gene
 
 #### 1. Total Financial Surveillance
 
-```
+```text
 Fiat trajectory:
   2020: Banks track all card transactions
   2023: CBDCs pilot (digital yuan, e-euro)
@@ -38,11 +38,12 @@ Consequences:
 Cash extinction:
   - Physical cash declining globally
   - No anonymous alternative
+
 ```
 
 #### 2. AI Displacement of Human Work
 
-```
+```text
 2026 reality:
   - GPT-5 writes better code than juniors
   - Robots in warehouses, farms, factories
@@ -57,11 +58,12 @@ Answer:
   - Unique, imperfect, handmade
   
 Beat: Economy for what robots can't do
+
 ```
 
 #### 3. Inequality in Money Creation
 
-```
+```text
 Who creates money:
   
 Fiat: Central banks → commercial banks → rich first
@@ -73,11 +75,12 @@ Crypto: Miners with hardware
   - Energy waste catastrophe
   
 Result: Money = power concentration
+
 ```
 
 ### What's Missing?
 
-```
+```text
 A system where:
   ✓ Every human = equal creator
   ✓ Privacy = default
@@ -85,6 +88,7 @@ A system where:
   ✓ Value for human, not perfect
   ✓ Safety net for all (5,000 BEAT base)
   ✓ Circulation over hoarding
+
 ```
 
 ---
@@ -95,7 +99,7 @@ A system where:
 
 **Beat is not money. Beat is the heartbeat of community.**
 
-```
+```text
 Key principles:
 
 1. Universal Emission
@@ -127,6 +131,7 @@ Key principles:
    Not "free" (devalues work)
    Not "expensive" (exploits)
    "Fair recognition of effort"
+
 ```
 
 ---
@@ -135,7 +140,7 @@ Key principles:
 
 #### The Heartbeat Metaphor
 
-```
+```text
 Every day = One heartbeat = +10 BEAT
 
 Like a heart:
@@ -145,11 +150,12 @@ Like a heart:
   - Circulation = life (blood must flow)
   
 "Money that beats, not sleeps"
+
 ```
 
 #### Fireproof Base: Universal Safety Net
 
-```
+```text
 Problem of traditional UBI:
   - Give everyone money
   - But they spend it all
@@ -166,11 +172,12 @@ Psychological effect:
   "I'm not poor. I have a base."
   → Feel secure
   → Can take risks, create, help others
+
 ```
 
 #### Progressive Demurrage: Anti-Hoarding
 
-```
+```text
 Why penalize wealth?
 
 Capitalism problem:
@@ -187,22 +194,23 @@ Example:
   Someone hoards 50,000 BEAT
   
   Month 1:
-    0-5,000: lose 0
-    5,000-10,000: lose -250 (-5%)
-    10,000-20,000: lose -1,000 (-10%)
-    20,000-50,000: lose -4,500 (-15%)
+     0-5,000: lose 0
+     5,000-10,000: lose -250 (-5%)
+     10,000-20,000: lose -1,000 (-10%)
+     20,000-50,000: lose -4,500 (-15%)
     
-    Total loss: -5,750/month
+   Total loss: -5,750/month
   
   After 1 year: ~8,000-10,000 BEAT left
   (melted down to near base)
   
 Conclusion: Can't stay rich. Must circulate.
+
 ```
 
 #### Gift Economy + Accounting Unit
 
-```
+```text
 Traditional gift economy:
   ✓ Works in small tribes
   ✗ Doesn't scale (unclear debts)
@@ -221,6 +229,7 @@ Key insight:
   - Dignity for both parties
   
 Not charity. Not commerce. Circulation.
+
 ```
 
 ---
@@ -231,7 +240,7 @@ Not charity. Not commerce. Circulation.
 
 #### A. Verification (Sybil Resistance)
 
-```
+```text
 Multi-layer protection:
 
 1. Biometry (Fingerprint)
@@ -263,10 +272,12 @@ Multi-layer protection:
 5. Periodic Re-verification
    Every 6-12 months:
    Random neighbor confirms identity
+
 ```
 
 **Attack Economics:**
-```
+
+```text
 Creating 10 fake accounts:
   - Need: 30 accomplices (vouchers)
   - Time: 10 months waiting
@@ -280,11 +291,12 @@ vs Honest participation:
   - Safety net: Can save 5,000 BEAT
   
 Conclusion: Attack economically unviable
+
 ```
 
 #### B. Daily Emission (Fixed)
 
-```
+```text
 Simple formula:
 
 UD = 10 BEAT/day (forever)
@@ -297,6 +309,7 @@ Why fixed (not growing)?
   2. Demurrage handles equality (melts old wealth)
   3. No inflation pressure (local pricing)
   4. Predictable (can plan long-term)
+
 ```
 
 ```javascript
@@ -325,6 +338,7 @@ function generateDailyBeat(user) {
   user.lastActivation = now()
   return { amount: UD, tokens: tokens }
 }
+
 ```
 
 ---
@@ -333,7 +347,7 @@ function generateDailyBeat(user) {
 
 #### A. Two-Tier Storage
 
-```
+```text
 Pocket (Hot Wallet):
   Location: Secure Element (phone)
   Limit: 500 BEAT
@@ -351,11 +365,12 @@ Vault (Cold Storage):
   
 Total Balance = Pocket + Vault
 Demurrage calculated on total
+
 ```
 
 #### B. Transfer Methods
 
-```
+```text
 1. NFC (offline, instant):
    Phone-to-phone
    → Tokens transfer like physical coins
@@ -370,6 +385,7 @@ Demurrage calculated on total
    Via mint validators
    → Serial number verification
    → Protection from double-spend
+
 ```
 
 ---
@@ -378,7 +394,7 @@ Demurrage calculated on total
 
 #### A. What is a Mint?
 
-```
+```text
 Lightweight network node that:
 
 ✓ Checks token serial numbers (no double-spend)
@@ -389,11 +405,12 @@ Lightweight network node that:
 ✗ Does NOT generate BEAT (only humans do)
 ✗ Does NOT store biometrics (only ZK commitments)
 ✗ Does NOT know transaction details (privacy)
+
 ```
 
 #### B. Who Can Run a Mint?
 
-```
+```text
 Anyone can run a mint on:
   - Smartphone (background mode)
   - Home PC (24/7)
@@ -410,11 +427,12 @@ Requirements:
 Limits:
   - Max 3 mints per person
   - Requires human verification
+
 ```
 
 #### C. Mint Incentives
 
-```
+```text
 Rewards:
   ✓ Reduced demurrage rate
      Normal user above 5,000: -5% to -15%
@@ -429,6 +447,7 @@ Rewards:
 NOT a reward:
   ✗ Does NOT generate extra BEAT
   ✗ Same 10 BEAT/day as everyone
+
 ```
 
 #### D. Gossip Sync
@@ -456,6 +475,7 @@ function gossipSync() {
     })
   }, 10 * 60 * 1000)
 }
+
 ```
 
 **Propagation speed:** Fraud detected anywhere → known globally in 10-30 minutes
@@ -504,11 +524,12 @@ function applyDailyDemurrage(balance) {
   const dailyLoss = monthlyLoss / 30
   return balance - dailyLoss
 }
+
 ```
 
 #### B. Example Scenarios
 
-```
+```text
 User A (Poor - 1,000 BEAT):
   Balance: 1,000
   Demurrage: 0
@@ -524,27 +545,28 @@ User B (Safe - 5,000 BEAT):
 User C (Moderate - 7,000 BEAT):
   Balance: 7,000
   Breakdown:
-    0-5,000: lose 0
-    5,000-7,000: lose 100 (-5% on 2,000)
+     0-5,000: lose 0
+     5,000-7,000: lose 100 (-5% on 2,000)
   Total loss: -100/month
   Safe base: ✓ (5,000 protected)
 
 User D (Rich - 25,000 BEAT):
   Balance: 25,000
   Breakdown:
-    0-5,000: lose 0
-    5,000-10,000: lose -250 (-5%)
-    10,000-20,000: lose -1,000 (-10%)
-    20,000-25,000: lose -750 (-15%)
+     0-5,000: lose 0
+     5,000-10,000: lose -250 (-5%)
+     10,000-20,000: lose -1,000 (-10%)
+     20,000-25,000: lose -750 (-15%)
   Total loss: -2,000/month
   
   After 1 year: ~8,000 BEAT
   (melted to near fireproof base)
+
 ```
 
 #### C. Validator Benefit
 
-```
+```text
 Validator running 1 mint:
 
 Normal demurrage above 5,000:
@@ -565,6 +587,7 @@ Example (15,000 BEAT balance):
     Lose: -125 (tier 1) + -250 (tier 2) = -375/month
   
   Savings: -375/month (50% less demurrage)
+
 ```
 
 ---
@@ -573,7 +596,7 @@ Example (15,000 BEAT balance):
 
 #### A. Biometric Protection
 
-```
+```text
 Never leaves device:
   1. Fingerprint template (raw data)
   2. Device secret (256-bit random)
@@ -589,11 +612,12 @@ Network sees:
   ✗ NOT the fingerprint
   ✗ NOT the hash
   ✗ NOT linkage between days
+
 ```
 
 #### B. Transaction Privacy
 
-```
+```text
 P2P transfers:
   - Only sender and receiver know
   - Mints see only serial numbers
@@ -607,6 +631,7 @@ Fraud detection:
   - If double-spend: Creates proof
   - Proof spreads via gossip
   - Cheater blacklisted globally
+
 ```
 
 ---
@@ -615,7 +640,7 @@ Fraud detection:
 
 #### Why NOT store everything?
 
-```
+```text
 Blockchain problem:
   - Bitcoin: 500+ GB
   - Ethereum: 1+ TB
@@ -628,11 +653,12 @@ Beat solution:
     ✓ Detect double-spends (days/weeks)
     ✓ Fraud proof propagation (month)
     ✓ Old tokens already spent/renewed
+
 ```
 
 #### What IS stored forever?
 
-```
+```text
 Metadata only:
 
 1. Fraud proofs
@@ -643,6 +669,7 @@ Metadata only:
 
 3. Aggregate stats
    { totalTx: 1.5M, totalVolume: 15M BEAT, activeUsers: 5,200 }
+
 ```
 
 **Database size:** 100-500 MB for 10,000 users (vs 500 GB Bitcoin)
@@ -653,7 +680,7 @@ Metadata only:
 
 ### A. Emission
 
-```
+```text
 Fixed Universal Dividend:
 
 UD = 10 BEAT/day (forever)
@@ -669,11 +696,12 @@ Example lifetimes:
 But with demurrage:
   Can't hoard 36,500
   Maximum practical savings: ~6,000-8,000 BEAT
+
 ```
 
 ### B. Demurrage (The Melting Mechanism)
 
-```
+```text
 Fireproof Base: 5,000 BEAT (0% loss)
   = ~500 days base income
   = ~1.4 years safety net
@@ -682,11 +710,12 @@ Progressive Tiers:
   5,000-10,000 BEAT: -5%/month
   10,000-20,000 BEAT: -10%/month
   20,000+ BEAT: -15%/month
+
 ```
 
 **Why these numbers?**
 
-```
+```text
 5,000 BEAT base:
   - Enough for emergencies
   - Small purchases (e.g., used laptop ~2,000 BEAT)
@@ -698,11 +727,12 @@ Progressive tiers:
   - Harsh at top (-15% forces spending)
   - Prevents wealth concentration
   - Encourages circulation
+
 ```
 
 ### C. Long-term Balance Dynamics
 
-```
+```text
 Scenario: User tries to save everything for 10 years
 
 Year 1:
@@ -730,11 +760,12 @@ Year 4-10:
 Conclusion: 
   Maximum practical hoard: ~8,000 BEAT
   Even after 10 years of pure saving
+
 ```
 
 **Comparison: Newcomer vs 10-year veteran**
 
-```
+```text
 After 10 years:
 
 Veteran (hoarding everything):
@@ -746,11 +777,12 @@ Newcomer (saving for 2 years):
 Gap: Minimal (1.3-1.6x)
   vs capitalism (100-1000x)
   vs Bitcoin (10,000x+)
+
 ```
 
 ### D. Local Value (No Global Rate)
 
-```
+```text
 CRITICAL PRINCIPLE:
   10 BEAT = 10 BEAT (quantity)
   BUT purchasing power varies locally
@@ -767,11 +799,12 @@ Why no fixed rate?
   1. Prevents arbitrage/speculation
   2. Local autonomy
   3. Fair: 10 BEAT = 1 day income everywhere
+
 ```
 
 **Cross-border pricing:**
 
-```
+```text
 Photographer (Nuremberg) ↔ Client (San Francisco)
 
 Zine design: Agree on 200 BEAT
@@ -789,6 +822,7 @@ Effect:
   
 This is NATURAL (reflects local economy)
 NOT currency manipulation
+
 ```
 
 ---
@@ -797,7 +831,7 @@ NOT currency manipulation
 
 ### A. Onboarding Flow
 
-```
+```text
 Day 0: Registration
   
   1. Download Beat app
@@ -838,82 +872,85 @@ Year 1+: Established User
   Periodically:
     - Review demurrage impact
     - Decide: spend or save?
+
 ```
 
 ### B. Main Interface
 
-```
+```text
 ┌─────────────────────────────────────┐
 │  ♥ BEAT                             │
 │  Money that beats, not sleeps       │
 ├─────────────────────────────────────┤
-│                                      │
+│                                     │
 │  Today: +10 BEAT ✓                  │
-│                                      │
-│  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  │
-│                                      │
+│                                     │
+│  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━    │
+│                                     │
 │  Total Balance: 7,350 BEAT          │
-│                                      │
+│                                     │
 │  🛡️ Fireproof: 5,000 BEAT           │
 │     (protected forever)             │
-│                                      │
+│                                     │
 │  ⚠️ Excess: 2,350 BEAT              │
 │     Melting: -5%/month              │
 │     Monthly loss: ~118 BEAT         │
-│                                      │
+│                                     │
 │     [View Offers to Spend]          │
-│                                      │
-│  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  │
-│                                      │
+│                                     │
+│  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━    │
+│                                     │
 │  ┌────────────────────────────────┐ │
 │  │  🔄 Exchange Board             │ │
 │  │  Local offers near you         │ │
 │  └────────────────────────────────┘ │
-│                                      │
+│                                     │
 │  ┌────────────────────────────────┐ │
 │  │  📍 Community Map              │ │
 │  │  23 active members nearby      │ │
 │  └────────────────────────────────┘ │
-│                                      │
+│                                     │
 │  ┌────────────────────────────────┐ │
 │  │  👥 My Network                 │ │
 │  │  Trust circle & reputation     │ │
 │  └────────────────────────────────┘ │
-│                                      │
+│                                     │
 └─────────────────────────────────────┘
+
 ```
 
 ### C. Exchange Board (Example)
 
-```
+```text
 ┌─────────────────────────────────────┐
-│  🔄 EXCHANGE BOARD                   │
-│  Fair trades, symbolic prices        │
+│  🔄 EXCHANGE BOARD                  │
+│  Fair trades, symbolic prices       │
 ├─────────────────────────────────────┤
-│                                      │
+│                                     │
 │  📸 Anna (photographer):             │
 │     Photo zine "Nuremberg Snow"     │
-│     20 BEAT                          │
-│     [View] [Contact]                 │
-│                                      │
+│     20 BEAT                         │
+│     [View] [Contact]                │
+│                                     │
 │  💾 Peter (developer):               │
-│     RAM sticks 2GB × 4               │
-│     5 BEAT (or fair offer)           │
-│     [Take] [Message]                 │
-│                                      │
+│     RAM sticks 2GB × 4              │
+│     5 BEAT (or fair offer)          │
+│     [Take] [Message]                │
+│                                     │
 │  🎨 Maria (artist):                  │
 │     Watercolor lessons (2 hours)    │
-│     15 BEAT                          │
-│     [Book]                           │
-│                                      │
+│     15 BEAT                         │
+│     [Book]                          │
+│                                     │
 │  🌾 Local farm:                      │
-│     Fresh eggs (10 pcs)              │
-│     8 BEAT                           │
-│     [Reserve]                        │
-│                                      │
-│  [+ Post My Offer]                   │
-│                                      │
+│     Fresh eggs (10 pcs)             │
+│     8 BEAT                          │
+│     [Reserve]                       │
+│                                     │
+│  [+ Post My Offer]                  │
+│                                     │
 └─────────────────────────────────────┘
+
 ```
 
 ---
@@ -921,7 +958,7 @@ Year 1+: Established User
 ## VI. Comparison
 
 | Feature | Fiat (USD/EUR) | Crypto (BTC/ETH) | Beat |
-|---------|---------------|------------------|------|
+| --- | --- | --- | --- |
 | **Emission** | Central bank | Mining | Every human |
 | **Distribution** | Unequal | Very unequal | Equal |
 | **Daily income** | Work required | Hardware required | Just exist |
@@ -941,7 +978,7 @@ Year 1+: Established User
 
 ### Phase 0: Documentation (1-2 months, $0)
 
-```
+```text
 Deliverables:
   ✓ Whitepaper (this document)
   ✓ Technical specifications
@@ -952,11 +989,12 @@ Deliverables:
 Goal: Clear vision for all stakeholders
 
 Status: COMPLETE (you're reading it)
+
 ```
 
 ### Phase 1: Proof of Concept (3-6 months, $0-1,000)
 
-```
+```text
 Build:
   - Simple Android app
     • Key generation
@@ -978,11 +1016,12 @@ Success metric:
   - 70%+ daily activation rate after 1 month
   - 5+ transactions per person per week
   - Positive feedback on "fireproof base" concept
+
 ```
 
 ### Phase 2: Alpha (6-12 months, $1,000-5,000)
 
-```
+```text
 Add:
   - Mint federation (gossip protocol)
   - Fingerprint → ZK Proof
@@ -999,11 +1038,12 @@ Success metric:
   - Zero successful double-spends
   - Demurrage driving circulation
   - 80%+ keep balance near 5,000 (healthy behavior)
+
 ```
 
 ### Phase 3: Beta (12-24 months, $5,000-20,000)
 
-```
+```text
 Polish:
   - Security audit (external)
   - iOS version
@@ -1020,11 +1060,12 @@ Success metric:
   - 90%+ uptime
   - Positive economic impact (surveys)
   - Self-sustaining communities
+
 ```
 
 ### Phase 4: Public Launch (24+ months)
 
-```
+```text
 Release:
   - Open beta for all
   - Press outreach
@@ -1037,6 +1078,7 @@ Support:
   - Security maintenance
   
 Goal: Organic growth, 10,000+ users in Year 1
+
 ```
 
 ---
@@ -1045,7 +1087,7 @@ Goal: Organic growth, 10,000+ users in Year 1
 
 ### Tier 1: Ideologically Ready
 
-```
+```text
 1. Eco-villages & Intentional Communities
    ✓ Already practice alternative economy
    ✓ High trust within group
@@ -1063,11 +1105,12 @@ Goal: Organic growth, 10,000+ users in Year 1
    ✓ Need anonymous payments
    ✓ Ideological motivation (anti-system)
    ✓ Demographic: Political/social movements
+
 ```
 
 ### Tier 2: Economically Motivated
 
-```
+```text
 4. Refugees & Undocumented Migrants
    ✓ No bank account (no papers)
    ✓ Biometrics = only "identity"
@@ -1085,11 +1128,12 @@ Goal: Organic growth, 10,000+ users in Year 1
    ✓ Barter already exists (informal)
    ✓ Beat = formalize existing practice
    ✓ Demographic: Post-industrial towns
+
 ```
 
 ### Launch Strategy
 
-```
+```text
 Start with: 1 eco-village (100-200 people)
   - High trust
   - Geographically concentrated
@@ -1105,6 +1149,7 @@ Avoid early:
   - General public (not ready)
   - Cities without anchor community
   - Places with low trust
+
 ```
 
 ---
@@ -1115,7 +1160,7 @@ Avoid early:
 
 #### 1. Social Adoption (Probability: 70%)
 
-```
+```text
 Risk: 
   "Why not just use cash/cards?"
   Most people choose convenience over privacy
@@ -1128,11 +1173,12 @@ Mitigation:
     - "5,000 BEAT safety net"
     - "No one tracks your spending"
     - "Support local, not Amazon"
+
 ```
 
 #### 2. Critical Mass (Probability: 60%)
 
-```
+```text
 Risk:
   <100 active users → system dies
   - Too few mints (slow validation)
@@ -1144,11 +1190,12 @@ Mitigation:
   ✓ Partner with local businesses (anchor sellers)
   ✓ Identify "connectors" (popular community members)
   ✓ 6-month commitment from core group
+
 ```
 
 #### 3. Legal Repression (Probability: 30-70%, varies by country)
 
-```
+```text
 Risk:
   Government bans as "shadow currency"
   
@@ -1163,13 +1210,14 @@ Mitigation:
   ✓ No fiat conversion in-app
   ✓ If banned → underground (like Tor)
   ✓ Mesh networks (offline resilience)
+
 ```
 
 ### Medium Risks
 
 #### 4. Sybil Attacks (Probability: 40%)
 
-```
+```text
 Risk:
   Someone creates 10-100 fake accounts
   
@@ -1186,11 +1234,12 @@ Mitigation:
 Acceptable damage:
   5-10 fakes in 1,000 users = tolerable
   (99%+ legitimate)
+
 ```
 
 #### 5. Technical Complexity (Probability: 50%)
 
-```
+```text
 Risk:
   "I lost my seed phrase → lost savings"
   
@@ -1209,11 +1258,12 @@ Mitigation:
 Philosophy:
   "Your keys, your BEAT, your responsibility"
   But provide every tool to help
+
 ```
 
 #### 6. Demurrage Backlash (Probability: 30%)
 
-```
+```text
 Risk:
   "This is theft! My money is melting!"
   
@@ -1227,6 +1277,7 @@ Mitigation:
 Accept:
   Some people will hate it and leave
   They're not target users anyway
+
 ```
 
 ---
@@ -1235,7 +1286,7 @@ Accept:
 
 ### The Math
 
-```
+```text
 10 BEAT/day × 365 days = 3,650/year
 
 5,000 BEAT = ~1.4 years of base income
@@ -1257,11 +1308,12 @@ Too high (e.g., 20,000):
   ✓ Can buy laptop, phone, small furniture
   ✓ Feel secure, not desperate
   ✓ But can't "retire" (must keep participating)
+
 ```
 
 ### What Can 5,000 BEAT Buy?
 
-```
+```text
 Local prices vary, but examples:
 
 - Used laptop: ~2,000 BEAT
@@ -1274,6 +1326,7 @@ Local prices vary, but examples:
 Conclusion:
   5,000 = Enough for major life needs
   But not enough to stop working
+
 ```
 
 ---
@@ -1282,7 +1335,7 @@ Conclusion:
 
 ### Q: "Why give everyone money for free?"
 
-```
+```text
 A: It's not "free" — it's recognition of personhood.
 
 In capitalism:
@@ -1297,11 +1350,12 @@ In Beat:
   
 10 BEAT/day is not "enough to live"
 It's "enough to participate with dignity"
+
 ```
 
 ### Q: "Won't people just sit at home and collect BEAT?"
 
-```
+```text
 A: No, for three reasons:
 
 1. 10 BEAT/day is minimal
@@ -1319,11 +1373,12 @@ A: No, for three reasons:
    - Want reputation
    - Base income = freedom to choose work you love
      NOT freedom to do nothing
+
 ```
 
 ### Q: "What stops inflation?"
 
-```
+```text
 A: No global prices = no global inflation
 
 Fiat inflation:
@@ -1343,11 +1398,12 @@ If too much BEAT in one community:
   
 Different communities will have different "price levels"
 And that's OK (no arbitrage possible)
+
 ```
 
 ### Q: "Why not just use Bitcoin?"
 
-```
+```text
 A: Bitcoin optimizes for different goals
 
 Bitcoin:
@@ -1368,6 +1424,7 @@ Bitcoin is savings account.
 Beat is circulatory system.
 
 Both have value. Different purposes.
+
 ```
 
 ---
@@ -1376,7 +1433,7 @@ Both have value. Different purposes.
 
 ### As Developer
 
-```
+```text
 Skills needed:
   - Mobile (Kotlin/Swift)
   - Backend (Node.js/Go/Rust)
@@ -1387,7 +1444,7 @@ Even 5 hours/week helps.
 
 Next steps:
   1. Read technical specs (Appendix A)
-  2. Join GitHub: github.com/beat-protocol
+  2. Join GitHub: [github.com/beat-protocol](https://github.com/beat-protocol)
   3. Pick an issue
   4. Submit PR
   
@@ -1395,11 +1452,12 @@ Compensation:
   - None initially (volunteer)
   - Later: Grants from ecosystem
   - Eventually: Paid by communities using Beat
+
 ```
 
 ### As Community Organizer
 
-```
+```text
 Launch Beat in your:
   - Eco-village
   - Artist collective
@@ -1415,11 +1473,12 @@ You provide:
   - Local enthusiasm
   - First 20-50 people
   - Commitment to 6-month pilot
+
 ```
 
 ### As Researcher
 
-```
+```text
 Help with:
   - Economic simulations (agent-based models)
   - Security analysis (cryptography review)
@@ -1430,159 +1489,36 @@ Contribute:
   - Research findings
   - Formal proofs
   - Case studies
+
 ```
 
 ### As Donor
 
-```
+```text
 Support development:
   - Developer grants ($1,000-5,000/dev)
   - Server costs ($20-100/month)
   - Security audits ($10,000-20,000)
   
 Platforms:
-  - OpenCollective: opencollective.com/beat
+  - OpenCollective: [opencollective.com/beat](https://opencollective.com/beat)
   - Gitcoin: gitcoin.co/grants/beat
   - Direct crypto: beat-protocol.org/donate
   
 100% transparent accounting
 All funds publicly tracked
+
 ```
 
 ### As Early Adopter
 
-```
+```text
 If you're in a community that might be interested:
   
   1. Share this whitepaper
   2. Gauge interest (need 20+ people)
   3. Contact us: hello@beat-protocol.org
-  4. We'll help you pilot
-  
-Ideal early adopters:
-  - 50-200 people
-  - Geographic concentration
-  - Some existing barter/mutual aid
-  - Mix of producers and consumers
-```
-
----
-
-## XIII. Conclusion
-
-**Beat is not better money. Beat is different money.**
-
-It's not for:
-  ❌ Replacing global fiat
-  ❌ Getting rich
-  ❌ Speculation
-  ❌ Storing wealth forever
-  
-It's for:
-  ✓ Local communities (100-10,000)
-  ✓ Parallel economy (complement to fiat)
-  ✓ Financial privacy (zero-knowledge)
-  ✓ Human-scale exchange (anti-Amazon)
-  ✓ Circulation with dignity (not charity, not capitalism)
-  ✓ Safety net (5,000 BEAT base for all)
-
----
-
-### The Vision
 
 ```
-Imagine 2030:
 
-10,000 people across 50 communities use Beat daily.
-
-In Nuremberg:
-  Anna sells her photo zines for 20 BEAT
-  Everyone has 5,000 BEAT safety net
-  No one tracks her political purchases
-  
-In Bangkok:
-  Artisan workshops trade furniture for Beat
-  Tourists pay locals directly (no Airbnb cut)
-  Beat accepted at farmers market
-  
-In São Paulo:
-  Favela residents bypass banks entirely
-  Beat runs on old smartphones
-  Local economy resilient to fiat crisis
-  
-None of these replaced their local currency.
-Beat just gave them an alternative.
-A space where:
-  - Surveillance doesn't reach
-  - Platforms don't extract
-  - Everyone starts equal (10 BEAT/day)
-  - Everyone can save (5,000 fireproof)
-  - Money flows like blood (demurrage)
 ```
-
----
-
-### If even ONE community proves this works...
-
-That's enough.
-
-Because it shows **the alternative is possible.**
-
-And once people see it's possible,  
-they can't unsee it.
-
----
-
-## Contact & Links
-
-**Website:** beat-protocol.org (coming soon)  
-**GitHub:** github.com/beat-protocol (coming soon)  
-**Forum:** forum.beat-protocol.org (coming soon)  
-**Email:** hello@beat-protocol.org
-
-**License:** MIT (fully open source)  
-**Status:** Concept phase (whitepaper v1.0)  
-**Date:** February 2026  
-**Authors:** Community-driven (this document emerged from conversation)
-
----
-
-## Appendices
-
-### Appendix A: Technical Specifications
-(50+ pages, separate document)
-- Protocol details
-- API specifications  
-- Cryptographic schemes
-- Database schemas
-- Network topology
-
-### Appendix B: Economic Simulations
-(Research paper, separate document)
-- Agent-based modeling
-- Monte Carlo simulations
-- Demurrage impact analysis
-- Inequality metrics
-
-### Appendix C: User Guides
-(Living documentation)
-- Onboarding tutorial
-- Security best practices
-- Community launch playbook
-- FAQ
-
-### Appendix D: References
-
-1. Laborde, S. (2012). "Relative Theory of Money"
-2. Gesell, S. (1916). "The Natural Economic Order"  
-3. Graeber, D. (2011). "Debt: The First 5,000 Years"
-4. Mauss, M. (1925). "The Gift"
-5. Chaum, D. (1983). "Blind signatures for untraceable payments"
-6. Nakamoto, S. (2008). "Bitcoin: A Peer-to-Peer Electronic Cash System"
-
----
-
-**END OF WHITEPAPER v1.0**
-```
-
-♥ Keep the beat alive.
