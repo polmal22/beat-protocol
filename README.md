@@ -77,9 +77,9 @@ Money above 5,000 melts progressively:
 ## Read More
 
 📄 **[Full Whitepaper](WHITEPAPER.md)** — Complete technical and economic design  
-📊 **[Economic Model](docs/ECONOMIC_MODEL.md)** — Why demurrage and fireproof base work  
+📊 **[Economic Model](ECONOMIC_MODEL.md)** — Why demurrage and fireproof base work  
 ❓ **[FAQ](docs/FAQ.md)** — Common questions answered  
-🛠️ **[Technical Spec](docs/TECHNICAL_SPEC.md)** — For developers (coming soon)
+🛠️ **[Technical Spec](TECHNICAL_SPEC.md)** — For developers (coming soon)
 
 ---
 
